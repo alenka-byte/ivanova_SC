@@ -1,0 +1,16 @@
+C:\Users\Alena\Рабочий стол\Имитационка\Лаба2\bin\Debug\net8.0-windows\Лаба2.exe
+C:\Users\Alena\Рабочий стол\Имитационка\Лаба2\bin\Debug\net8.0-windows\Лаба2.deps.json
+C:\Users\Alena\Рабочий стол\Имитационка\Лаба2\bin\Debug\net8.0-windows\Лаба2.runtimeconfig.json
+C:\Users\Alena\Рабочий стол\Имитационка\Лаба2\bin\Debug\net8.0-windows\Лаба2.dll
+C:\Users\Alena\Рабочий стол\Имитационка\Лаба2\bin\Debug\net8.0-windows\Лаба2.pdb
+C:\Users\Alena\Рабочий стол\Имитационка\Лаба2\obj\Debug\net8.0-windows\Лаба2.Form1.resources
+C:\Users\Alena\Рабочий стол\Имитационка\Лаба2\obj\Debug\net8.0-windows\Лаба2.csproj.GenerateResource.cache
+C:\Users\Alena\Рабочий стол\Имитационка\Лаба2\obj\Debug\net8.0-windows\Лаба2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alena\Рабочий стол\Имитационка\Лаба2\obj\Debug\net8.0-windows\Лаба2.AssemblyInfoInputs.cache
+C:\Users\Alena\Рабочий стол\Имитационка\Лаба2\obj\Debug\net8.0-windows\Лаба2.AssemblyInfo.cs
+C:\Users\Alena\Рабочий стол\Имитационка\Лаба2\obj\Debug\net8.0-windows\Лаба2.csproj.CoreCompileInputs.cache
+C:\Users\Alena\Рабочий стол\Имитационка\Лаба2\obj\Debug\net8.0-windows\Лаба2.dll
+C:\Users\Alena\Рабочий стол\Имитационка\Лаба2\obj\Debug\net8.0-windows\refint\Лаба2.dll
+C:\Users\Alena\Рабочий стол\Имитационка\Лаба2\obj\Debug\net8.0-windows\Лаба2.pdb
+C:\Users\Alena\Рабочий стол\Имитационка\Лаба2\obj\Debug\net8.0-windows\Лаба2.genruntimeconfig.cache
+C:\Users\Alena\Рабочий стол\Имитационка\Лаба2\obj\Debug\net8.0-windows\ref\Лаба2.dll
