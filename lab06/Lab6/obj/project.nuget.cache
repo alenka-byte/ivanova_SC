@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "CfPoO2ECQhMZF+RoAJF6U5NcPBCxQuX4v4F489cx/K6LGhssfM0vmftxQEaOxTasHrONsu2oKKj/NMmC/KCZzA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Alena\\Рабочий стол\\Имитационка\\Lab6\\Lab6.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Alena\\.nuget\\packages\\mathnet.numerics\\5.0.0\\mathnet.numerics.5.0.0.nupkg.sha512",
+    "C:\\Users\\Alena\\.nuget\\packages\\winforms.datavisualization\\1.10.0\\winforms.datavisualization.1.10.0.nupkg.sha512"
+  ],
+  "logs": []
+}
