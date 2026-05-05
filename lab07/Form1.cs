@@ -10,8 +10,6 @@ namespace lab7
     public partial class Form1 : Form
     {
         Random random = new Random();
-
-        // 0 - ясно, 1 - облачно, 2 - пасмурно
         int currentState = 0;
         double[,] Lambda = new double[3, 3];
 
@@ -55,22 +53,14 @@ namespace lab7
             return -Math.Log(random.NextDouble()) / lambda;
         }
 
-        int GetNextState(int state)
+        int GetNextState(int state, double[] p)
         {
-            double[] sum = new double[] { 0, 0, 0};
-            for (int j = 0; j < 3; j++)
-                if (j != state)
-                    sum[j] = -Lambda[state, j] / Lambda[state, state];
-                else
-                    sum[j] = 0;
-                    
-
             double a = random.NextDouble();
             double s = 0;
             for (int j = 0; j < 3; j++)
             {
                 if (j == state) continue;
-                s += sum[j];
+                s += p[j];
                 if (a <= s)
                     return j;
             }
@@ -115,6 +105,15 @@ namespace lab7
             {
 
             }
+            double[] p = new double[] { 0, 0, 0 };
+            for (int i = 0; i < 3; i++)
+            {
+                for (int j = 0; j < 3; j++)
+                    if (j != i)
+                        p[j] = -Lambda[i, j] / Lambda[i, i];
+                    else
+                        p[j] = 0;
+            }
             double[] Dur = new double[3];   
             double t = 0;
             double[] theoretical = GetStationaryDistribution();
@@ -152,7 +151,7 @@ namespace lab7
                     t += dt;
                     chart1.Series[0].Points.AddXY(t, currentState);
 
-                    int nextState = GetNextState(currentState);
+                    int nextState = GetNextState(currentState, p);
                     trans[currentState, nextState]++;
                     currentState = nextState;
                     steps++;
