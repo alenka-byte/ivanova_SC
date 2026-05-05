@@ -4,12 +4,14 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Windows.Forms.DataVisualization.Charting;
+using static System.Windows.Forms.AxHost;
 
 namespace lab7
 {
     public partial class Form1 : Form
     {
         Random random = new Random();
+
         int currentState = 0;
         double[,] Lambda = new double[3, 3];
 
@@ -53,10 +55,24 @@ namespace lab7
             return -Math.Log(random.NextDouble()) / lambda;
         }
 
-        int GetNextState(int state, double[] p)
+        int GetNextState(int state)
         {
-            double a = random.NextDouble();
+            double[] p = new double[] { 0, 0, 0 };
             double s = 0;
+            for (int j = 0; j < 3; j++)
+            {
+                if (j != state)
+                {
+                    p[j] = -Lambda[state, j] / Lambda[state, state];
+                }                   
+                else
+                {
+                    p[j] = 0;
+                    continue;
+                }
+            }           
+            double a = random.NextDouble();
+
             for (int j = 0; j < 3; j++)
             {
                 if (j == state) continue;
@@ -78,14 +94,22 @@ namespace lab7
             double out2 = λ20 + λ21; 
 
             double coeff = (out1 * out0 - λ10 * λ01) / (out1 * λ20 + λ10 * λ21);
-            double π2_over_π0 = coeff;
-            double π1_over_π0 = (out0 - λ20 * coeff) / λ10;
+            double n = out0 * out1 - λ10 * λ01;
+            double d = λ20 * out1 + λ10 * λ21;
+            double π2_over_π0 = (d != 0) ? n / d : 0;
+            double π1_over_π0 = (λ10 != 0) ? (out0 - λ20 * π2_over_π0) / λ10 : 0;
 
             double sumCoef = 1 + π1_over_π0 + π2_over_π0;
             double π0 = 1.0 / sumCoef;
             double π1 = π1_over_π0 * π0;
             double π2 = π2_over_π0 * π0;
-
+            double total = π0 + π1 + π2;
+            if (total > 0)
+            {
+                π0 /= total;
+                π1 /= total;
+                π2 /= total;
+            }
             return new double[] { π0, π1, π2 };
         }
         private void button2_Click(object sender, EventArgs e)
@@ -101,19 +125,7 @@ namespace lab7
             Lambda[2, 1] = (double)n21.Value;
             Lambda[2, 2] = (double)n22.Value;
             listBox1.Items.Clear();
-            if (Lambda[0, 0] > 0 && Lambda[1, 1] > 0 && Lambda[2, 2] > 0)
-            {
-
-            }
-            double[] p = new double[] { 0, 0, 0 };
-            for (int i = 0; i < 3; i++)
-            {
-                for (int j = 0; j < 3; j++)
-                    if (j != i)
-                        p[j] = -Lambda[i, j] / Lambda[i, i];
-                    else
-                        p[j] = 0;
-            }
+            
             double[] Dur = new double[3];   
             double t = 0;
             double[] theoretical = GetStationaryDistribution();
@@ -151,7 +163,7 @@ namespace lab7
                     t += dt;
                     chart1.Series[0].Points.AddXY(t, currentState);
 
-                    int nextState = GetNextState(currentState, p);
+                    int nextState = GetNextState(currentState);
                     trans[currentState, nextState]++;
                     currentState = nextState;
                     steps++;
