@@ -1,0 +1,40 @@
+C:\Users\Alena\Рабочий стол\Имитационка\lab8\bin\Debug\net8.0-windows\lab8.exe
+C:\Users\Alena\Рабочий стол\Имитационка\lab8\bin\Debug\net8.0-windows\lab8.deps.json
+C:\Users\Alena\Рабочий стол\Имитационка\lab8\bin\Debug\net8.0-windows\lab8.runtimeconfig.json
+C:\Users\Alena\Рабочий стол\Имитационка\lab8\bin\Debug\net8.0-windows\lab8.dll
+C:\Users\Alena\Рабочий стол\Имитационка\lab8\bin\Debug\net8.0-windows\lab8.pdb
+C:\Users\Alena\Рабочий стол\Имитационка\lab8\bin\Debug\net8.0-windows\WinForms.DataVisualization.Utilities.dll
+C:\Users\Alena\Рабочий стол\Имитационка\lab8\bin\Debug\net8.0-windows\WinForms.DataVisualization.dll
+C:\Users\Alena\Рабочий стол\Имитационка\lab8\obj\Debug\net8.0-windows\lab8.csproj.AssemblyReference.cache
+C:\Users\Alena\Рабочий стол\Имитационка\lab8\obj\Debug\net8.0-windows\lab8.Form1.resources
+C:\Users\Alena\Рабочий стол\Имитационка\lab8\obj\Debug\net8.0-windows\lab8.csproj.GenerateResource.cache
+C:\Users\Alena\Рабочий стол\Имитационка\lab8\obj\Debug\net8.0-windows\lab8.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alena\Рабочий стол\Имитационка\lab8\obj\Debug\net8.0-windows\lab8.AssemblyInfoInputs.cache
+C:\Users\Alena\Рабочий стол\Имитационка\lab8\obj\Debug\net8.0-windows\lab8.AssemblyInfo.cs
+C:\Users\Alena\Рабочий стол\Имитационка\lab8\obj\Debug\net8.0-windows\lab8.csproj.CoreCompileInputs.cache
+C:\Users\Alena\Рабочий стол\Имитационка\lab8\obj\Debug\net8.0-windows\lab8.csproj.CopyComplete
+C:\Users\Alena\Рабочий стол\Имитационка\lab8\obj\Debug\net8.0-windows\lab8.dll
+C:\Users\Alena\Рабочий стол\Имитационка\lab8\obj\Debug\net8.0-windows\refint\lab8.dll
+C:\Users\Alena\Рабочий стол\Имитационка\lab8\obj\Debug\net8.0-windows\lab8.pdb
+C:\Users\Alena\Рабочий стол\Имитационка\lab8\obj\Debug\net8.0-windows\lab8.genruntimeconfig.cache
+C:\Users\Alena\Рабочий стол\Имитационка\lab8\obj\Debug\net8.0-windows\ref\lab8.dll
+C:\Users\Alena\Рабочий стол\Курсы и учеба\Имитационка\lab8\obj\Debug\net8.0-windows\lab8.csproj.AssemblyReference.cache
+C:\Users\Alena\Рабочий стол\Курсы и учеба\Имитационка\lab8\obj\Debug\net8.0-windows\lab8.Form1.resources
+C:\Users\Alena\Рабочий стол\Курсы и учеба\Имитационка\lab8\obj\Debug\net8.0-windows\lab8.csproj.GenerateResource.cache
+C:\Users\Alena\Рабочий стол\Курсы и учеба\Имитационка\lab8\obj\Debug\net8.0-windows\lab8.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alena\Рабочий стол\Курсы и учеба\Имитационка\lab8\obj\Debug\net8.0-windows\lab8.AssemblyInfoInputs.cache
+C:\Users\Alena\Рабочий стол\Курсы и учеба\Имитационка\lab8\obj\Debug\net8.0-windows\lab8.AssemblyInfo.cs
+C:\Users\Alena\Рабочий стол\Курсы и учеба\Имитационка\lab8\obj\Debug\net8.0-windows\lab8.csproj.CoreCompileInputs.cache
+C:\Users\Alena\Рабочий стол\Курсы и учеба\Имитационка\lab8\obj\Debug\net8.0-windows\lab8.dll
+C:\Users\Alena\Рабочий стол\Курсы и учеба\Имитационка\lab8\obj\Debug\net8.0-windows\refint\lab8.dll
+C:\Users\Alena\Рабочий стол\Курсы и учеба\Имитационка\lab8\obj\Debug\net8.0-windows\lab8.pdb
+C:\Users\Alena\Рабочий стол\Курсы и учеба\Имитационка\lab8\bin\Debug\net8.0-windows\lab8.exe
+C:\Users\Alena\Рабочий стол\Курсы и учеба\Имитационка\lab8\bin\Debug\net8.0-windows\lab8.deps.json
+C:\Users\Alena\Рабочий стол\Курсы и учеба\Имитационка\lab8\bin\Debug\net8.0-windows\lab8.runtimeconfig.json
+C:\Users\Alena\Рабочий стол\Курсы и учеба\Имитационка\lab8\bin\Debug\net8.0-windows\lab8.dll
+C:\Users\Alena\Рабочий стол\Курсы и учеба\Имитационка\lab8\bin\Debug\net8.0-windows\lab8.pdb
+C:\Users\Alena\Рабочий стол\Курсы и учеба\Имитационка\lab8\bin\Debug\net8.0-windows\WinForms.DataVisualization.Utilities.dll
+C:\Users\Alena\Рабочий стол\Курсы и учеба\Имитационка\lab8\bin\Debug\net8.0-windows\WinForms.DataVisualization.dll
+C:\Users\Alena\Рабочий стол\Курсы и учеба\Имитационка\lab8\obj\Debug\net8.0-windows\lab8.csproj.CopyComplete
+C:\Users\Alena\Рабочий стол\Курсы и учеба\Имитационка\lab8\obj\Debug\net8.0-windows\lab8.genruntimeconfig.cache
+C:\Users\Alena\Рабочий стол\Курсы и учеба\Имитационка\lab8\obj\Debug\net8.0-windows\ref\lab8.dll

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "lmBacLiyAneydVtsT4gATXzi3177lbWAH03JvczEyqBLHHZkkBgGDLp7q5YDNuFF9KcbJ1SU5zqmsEpU1uPd8Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Alena\\Рабочий стол\\Курсы и учеба\\Имитационка\\lab8\\lab8.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Alena\\.nuget\\packages\\winforms.datavisualization\\1.10.2\\winforms.datavisualization.1.10.2.nupkg.sha512"
+  ],
+  "logs": []
+}
